@@ -16,7 +16,7 @@ body {
 h1 {
   text-align: center;
   height: 38px;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 h1 span {
   white-space: nowrap;
@@ -65,10 +65,10 @@ h1 span {
   max-width: 110px;
 }
 .input::before {
-  left: calc(-10vw + 20px);
+  left: calc(-9vw + 12.5px);
 }
 .input::after {
-  right: calc(-10vw + 20px);
+  right: calc(-9vw + 12.5px);
 }
 .input.active {
   background-color: #2C3E50;
@@ -124,7 +124,7 @@ h1 span {
   width: 80vw;
   font-weight: 400;
   font-size: 22px;
-  margin-top: 100px;
+  margin-top: 10px;
   max-width: 1000px;
 }
 .description-flex-container p {
